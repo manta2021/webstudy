@@ -14,14 +14,14 @@
     --light-shadow: hsla(210, 40%, 25%, 1);
     --dark-shadow: hsla(210, 40%, 10%, 1);
     --font-color: white;
-    --direction-x : -4px;
-    --direction-y : -4px;
-    --direction-x-invert : 4px;
-    --direction-y-invert : 4px;
-    --text-direction-x : -2px;
-    --text-direction-y : -2px;
-    --text-direction-x-invert : 2px;
-    --text-direction-y-invert : 2px;
+    --direction-x: -4px;
+    --direction-y: -4px;
+    --direction-x-invert: 4px;
+    --direction-y-invert: 4px;
+    --text-direction-x: -2px;
+    --text-direction-y: -2px;
+    --text-direction-x-invert: 2px;
+    --text-direction-y-invert: 2px;
 }
 
 html,
@@ -253,7 +253,7 @@ form output {
 }
 
 
-.title{
+.title {
     color: var(--keycolor);
     text-shadow: var(--text-direction-x-invert) var(--text-direction-y-invert) 2px var(--light-shadow), var(--text-direction-x) var(--text-direction-y) 2px var(--dark-shadow);
 }
@@ -261,4 +261,8 @@ form output {
 svg {
     filter: drop-shadow(3px 3px 4px var(--dark-shadow));
     transition: .5s ease;
+}
+
+.lighting {
+    cursor: pointer;
 }
